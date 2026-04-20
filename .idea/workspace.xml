@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a2bfed3-d20d-4ec6-8efa-c3d488b207d6" name="Changes" comment="TokenTools appunti">
+    <list default="true" id="3a2bfed3-d20d-4ec6-8efa-c3d488b207d6" name="Changes" comment="TokenFilter appunti">
+      <change afterPath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/controllers/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/payloads/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/payloads/LoginRespDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/services/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/security/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/security/TokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/controllers/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/controllers/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/exceptions/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/exceptions/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/repositories/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/repositories/AuthorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/services/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/federicolepore/u5w19d4/services/AuthorService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
       <list>
         <option value="Exception" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -103,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776698850963</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TokenFilter appunti">
+      <option name="closed" value="true" />
+      <created>1776719608472</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776719608472</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +137,7 @@
     <MESSAGE value="new repo" />
     <MESSAGE value="TokenTools" />
     <MESSAGE value="TokenTools appunti" />
-    <option name="LAST_COMMIT_MESSAGE" value="TokenTools appunti" />
+    <MESSAGE value="TokenFilter appunti" />
+    <option name="LAST_COMMIT_MESSAGE" value="TokenFilter appunti" />
   </component>
 </project>

@@ -62,6 +62,9 @@ public class AuthorService {
         return this.aRepo.findById(id).orElseThrow(() -> new NotFoundException(id));
     }
 
+    public Author findByEmail(String email) {
+        return this.aRepo.findByEmail(email).orElseThrow(() -> new NotFoundException(email));
+    }
 
     //4
     public Author findByIdAndUpdate(UUID id, AuthorPayload body) {
